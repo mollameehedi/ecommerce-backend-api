@@ -6,6 +6,7 @@ const otpController = require("../../controllers/otpController")
 
 _.post('/registration', registrationController)
 _.post('/otpverify', otpController)
+_.post('/login', loginController)
 
 
 
